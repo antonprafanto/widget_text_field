@@ -58,7 +58,11 @@ class _MyAppState extends State<MyApp> {
                       namaDepan.text;
                     });
                   },
-                  decoration: InputDecoration(hintText: "Nama Depan"),
+                  decoration: InputDecoration(
+                      hintText: "Masukan Nama Woy",
+                      suffixIcon: Icon(Icons.people),
+                      
+                      ),
                 ),
                 TextField(
                   controller: namaBelakang,
